@@ -37,8 +37,6 @@ try:
 except URLError as e:
     streamlit.error()
 
-streamlit.write('The user entered ', fruit_choice)
-
 # Don't run anything past here while we troubeshoot
 streamlit.stop()
 
